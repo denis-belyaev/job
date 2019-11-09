@@ -11,7 +11,6 @@ class students extends ObjectModel
         'primary' => 'id_students',
         'multilang' => false,
         'fields' => array(
-            'id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'),
             'name' => array('type' => self::TYPE_STRING, 'validate' => 'isCatalogName'),
             'date_of_birth' => array('type' => self::TYPE_DATE, 'validate' => 'isDate'),
             'is_studying' => array('type' => self::TYPE_BOOL),
