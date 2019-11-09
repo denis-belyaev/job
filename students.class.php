@@ -8,7 +8,7 @@ class students extends ObjectModel
 
     public static $definition = array(
         'table' => 'students',
-        'primary' => 'id',
+        'primary' => 'id_students',
         'multilang' => false,
         'fields' => array(
             'id' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId'),
